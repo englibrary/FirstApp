@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
-
-  constructor() {}
+    public name2 : string;
+  constructor() { 
+    this.name2 ="김성은";
+  }
 
 }
